@@ -1,0 +1,23 @@
+.head_container{
+    width: 1920px;
+    height: 56px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #574fba;
+    position:fixed;
+    left:0px;
+    top:0px;
+}
+.logo{
+    width: 113px;
+    height: 25.6px; 
+    object-fit: contain;
+}
+.head_menu{
+    font-family: NotoSansCJKkr;
+    font-size: 15px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+}
