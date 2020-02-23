@@ -7,7 +7,7 @@ import Logo1 from '../image/home/logo/그룹 69.png'
 const Logo=() => {
     return(
 
-        <div>
+        <div className="home_logo_box">
             {/* png */}
            <img src={Logo1}
                 srcset="../image/home/logo/그룹 69@2x.png 2x,

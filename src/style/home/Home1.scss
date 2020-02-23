@@ -2,14 +2,33 @@
     width: 1920px;
     height: 633px;
     background-color: #eceef3;
+    border:  1px double #eceef3;
 }
 
+.home_img_box {
+  position: absolute;
+  top: 143px;
+  bottom: 728.2px;
+  left: 648px;
+  right: 647.9px;
 
-
+}
+  
+  
 .home_img {
     width: 624.1px;
     height: 286.8px;
     object-fit: contain;
+
+  }
+
+  .home_search_box{
+    position: absolute;
+    top: 469px;
+    bottom:637px;
+    left: 594px;
+    right: 594px;
+
   }
 
   .home_search 
@@ -20,6 +39,25 @@
         -webkit-backdrop-filter: blur(30px);
         backdrop-filter: blur(30px);
         background-color: #ffffff;
+        
       }
+
+ input::placeholder {
+  width: 186px;
+  height: 29px;
+  font-family: NotoSansCJKkr;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 3.2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #a8a8a8;
+ }
+
+ 
+
+
 
   
