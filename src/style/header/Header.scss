@@ -3,21 +3,18 @@
     height: 56px;
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
     background-color: #574fba;
+
     position:fixed;
     left:0px;
     top:0px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
-.logo{
+.head_logo{
     width: 113px;
-    height: 25.6px; 
+    height: 25.6px;
     object-fit: contain;
-}
-.head_menu{
-    font-family: NotoSansCJKkr;
-    font-size: 15px;
-    font-weight: 900;
-    font-stretch: normal;
-    font-style: normal;
-    letter-spacing: normal;
-    text-align: left;
+
+    margin: 13.7px 0px 16.6px 267px;
 }
