@@ -1,0 +1,131 @@
+.edit_container{
+    right:0px;
+    background-color: #eceef3;
+
+    margin-top: 56px;
+    margin-bottom: 136px;
+    margin-left: 467px;
+    width: 1453px;
+    height: 1398px;
+    padding-top: 66px;
+}
+.title{
+    width: 210px;
+    height: 43px;
+    font-family: NotoSansCJKkr;
+    font-size: 35px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.49;
+    letter-spacing: -0.88px;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.87);
+
+    margin-right: 1144px;
+    margin-left: 99px;
+}
+.edit_list{
+    font-family: NotoSansCJKkr;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: -0.45px;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.87);
+
+
+    margin-left: 99px;
+    margin-top: 113px;
+    display:flex;
+    flex-direction: row;
+}
+.edit_list .edit_title{
+    height: 31px;
+    font-size: 21px;
+    line-height: 1.48;
+    letter-spacing: -0.53px;
+    color: #574fba;
+
+    margin-bottom: 23px;
+}
+.edit_list p{
+    height: 27px;
+
+}
+#id{
+    height: 28px;
+    font-size: 19px;
+    font-weight: normal;
+    line-height: 1.47;
+    letter-spacing: -0.48px;
+    color: #a8a8a8;
+
+    margin-top: 21px;
+    margin-bottom: 31px;
+    padding-left: 18px;
+}
+#name{
+    height: 29px;
+    font-size: 20px;
+    line-height: 1.45;
+    font-weight: normal;
+    letter-spacing: -0.5px;
+    color: #a8a8a8;
+
+    margin-top: 21px;
+    margin-bottom: 29px;
+    padding-left: 18px;
+}
+.edit_list span{
+    height: 27px;
+
+    margin-bottom: 8px;
+}
+.edit_list input{
+    height: 24px;
+    font-weight: normal;
+    border-radius: 19px;
+    background-color: #ffffff;
+
+    font-size: 19px;
+    line-height: 1.47;
+    letter-spacing: -0.48px;
+    color: #a8a8a8;
+
+    padding: 13px 0px 14px 18px;
+    margin-bottom: 16px;
+}
+
+.basic_edit_list{
+    display:flex;
+    flex-direction: column;
+    width: 438px;
+}
+.pw_edit_list{
+    margin-left: 219px;
+    display:flex;
+    flex-direction: column;
+    width: 438px;
+}
+
+#edit_submit{
+    width: 438px;
+    height: 54px;
+    border-radius: 40px;
+    border: solid 1px #574fba;
+    background-color: #574fba; 
+    
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 1.1;
+    letter-spacing: normal;
+    color: #ffffff;
+
+    margin-top: 25px;
+    margin-left: 756px;
+    margin-right: 259px;
+
+}
