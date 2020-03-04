@@ -1,13 +1,11 @@
-import React from 'react';
-import './App.scss';
-import Home from './container/Home';
-
+import React from "react";
+import "./App.scss";
+import JoinComplete from "./container/JoinComplete";
 
 function App() {
   return (
     <div className="App">
-      <Home/>
-
+      <JoinComplete />
     </div>
   );
 }
