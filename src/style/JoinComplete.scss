@@ -1,0 +1,72 @@
+.entire_complete {
+  width: 1920px;
+  height: 1214px;
+  background-color: #eceef3;
+}
+
+.big {
+  width: 780px;
+  height: 66px;
+  font-family: NotoSansCJKkr;
+  font-size: 45px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 46px;
+  letter-spacing: normal;
+  text-align: center;
+  color: #574fba;
+}
+
+.small {
+  width: 430px;
+  height: 36px;
+  font-family: NotoSansCJKkr;
+  font-size: 24px;
+  font-weight: 700;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: -0.6px;
+  text-align: center;
+  color: #574fba;
+}
+
+.complete_img {
+  width: 820px;
+  height: 468px;
+  object-fit: contain;
+}
+
+.happy_img {
+  position: absolute;
+  top: 320px;
+  bottom: 426;
+  left: 550px;
+  right: 550px;
+}
+
+.login_btn_box {
+  position: absolute;
+  top: 866px;
+  bottom: 294px;
+  left: 741px;
+  right: 741px;
+}
+
+.big_box {
+  line-height: 9px;
+  position: absolute;
+  top: 150px;
+  bottom: 948px;
+  left: 598px;
+  right: 598px;
+}
+
+.small_box {
+  position: absolute;
+  top: 240px;
+  bottom: 903px;
+  left: 761px;
+  right: 771px;
+}
