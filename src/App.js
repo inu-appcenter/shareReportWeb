@@ -1,13 +1,14 @@
 import React from 'react';
 import './App.scss';
-import Home from './container/Home';
+import Message_board from './container/message_board';
+import Major_board from './container/Major_board';
 
 
 function App() {
   return (
     <div className="App">
-      <Home/>
-
+        
+        <Major_board/>
     </div>
   );
 }
