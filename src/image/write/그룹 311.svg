@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="55" height="49" viewBox="0 0 55 49">
+    <defs>
+        <filter id="prefix__사각형_447" width="39" height="44" x="0" y="0" filterUnits="userSpaceOnUse">
+            <feOffset dy="3"/>
+            <feGaussianBlur result="blur" stdDeviation="3"/>
+            <feFlood flood-opacity=".161"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <filter id="prefix__사각형_446" width="55" height="44" x="0" y="5" filterUnits="userSpaceOnUse">
+            <feOffset dy="3"/>
+            <feGaussianBlur result="blur-2" stdDeviation="3"/>
+            <feFlood flood-opacity=".161"/>
+            <feComposite in2="blur-2" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <style>
+            .prefix__cls-1{fill:#fff}
+        </style>
+    </defs>
+    <g id="prefix__그룹_311" data-name="그룹 311">
+        <g transform="translate(-31 -539) translate(31 539)">
+            <rect id="prefix__사각형_447-2" width="21" height="26" class="prefix__cls-1" data-name="사각형 447" rx="3" transform="translate(9 6)"/>
+        </g>
+        <g transform="translate(-31 -539) translate(31 539)">
+            <path id="prefix__사각형_446-2" d="M1 0h32a4 4 0 014 4v18a4 4 0 01-4 4H4a4 4 0 01-4-4V1a1 1 0 011-1z" class="prefix__cls-1" data-name="사각형 446" transform="translate(9 11)"/>
+        </g>
+    </g>
+</svg>

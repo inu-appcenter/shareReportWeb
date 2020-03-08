@@ -1,5 +1,5 @@
 import React from 'react';
-import Head_icon from '.../image/header/패스1990.svg';
+import Head_icon from '../../image/header/패스1990.svg';
 
 const Header_menu = () => {
     const isLogin = false
