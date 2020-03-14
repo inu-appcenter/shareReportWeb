@@ -1,0 +1,99 @@
+/*빠른메뉴 scss*/
+
+.culture_btn {
+  width: 301px;
+  height: 64px;
+  object-fit: contain;
+}
+.culture_btn_box {
+  position: absolute;
+  top: 930px;
+  bottom: 219px;
+  left: 267px;
+  right: 1352px;
+
+  width: 301px;
+  height: 64px;
+  border-radius: 40px;
+  border: solid 1px var(--iris);
+  background-color: #ffffff;
+}
+.upload_btn_box {
+  position: absolute;
+  top: 779px;
+  bottom: 370px;
+  left: 267px;
+  right: 1352;
+  width: 301px;
+  height: 64px;
+  border-radius: 40px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.22);
+  background-color: #564fb9;
+}
+
+.upload_btn {
+  width: 301px;
+  height: 64px;
+  object-fit: contain;
+}
+.dapart_btn_box {
+  position: absolute;
+  top: 855px;
+  bottom: 294px;
+  left: 267px;
+  right: 1352px;
+  width: 301px;
+  height: 64px;
+  border-radius: 40px;
+  border: solid 1px var(--iris);
+  background-color: #ffffff;
+}
+.dapart_btn {
+  width: 301px;
+  height: 64px;
+  object-fit: contain;
+}
+.quick_menu {
+  width: 65px;
+  height: 24px;
+  font-family: NotoSansCJKkr;
+  font-size: 16px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+.quick_menu_box {
+  position: absolute;
+  top: 695px;
+  bottom: 455px;
+  left: 267px;
+  right: 1594px;
+}
+
+/*공지사항 scss*/
+.notice_box {
+  position: absolute;
+  top: 725px;
+  bottom: 445px;
+  left: 594px;
+  right: 1002px;
+  width: 324px;
+  height: 43px;
+}
+.notice {
+  width: 59px;
+  height: 24px;
+  font-family: NotoSansCJKkr;
+  font-size: 16px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}

@@ -4,7 +4,7 @@ import QuickMenu from "./QuickMenu";
 
 const Home2 = () => {
   return (
-    <div>
+    <div className="home_2">
       <Notice />
       <QuickMenu />
     </div>
