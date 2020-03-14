@@ -4,6 +4,7 @@ import depart_data from "../image/home/quickmenu/btn_학과별자료.png";
 import culture_data from "../image/home/quickmenu/btn_교양자료.png";
 
 const Quick_menu = () => {
+<<<<<<< HEAD
   return (
     <div>
       <p className="quick_menu_box">
@@ -41,6 +42,11 @@ const Quick_menu = () => {
       </button>
     </div>
   );
+=======
+  return <div>
+
+  </div>;
+>>>>>>> 70161074eaa06f622e5f0128a9526d15172c95e4
 };
 
 export default Quick_menu;

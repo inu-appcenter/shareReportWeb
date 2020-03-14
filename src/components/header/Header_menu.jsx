@@ -1,7 +1,7 @@
 import React from 'react';
-import Head_icon from '../image/header/패스1990.svg';
+import Head_icon from '../../image/header/패스1990.svg';
 
-const Head_menu = () => {
+const Header_menu = () => {
     const isLogin = false
     return (
         <div className="head_menu_component">
@@ -26,4 +26,4 @@ const Head_menu = () => {
     );
 };
 
-export default Head_menu;
+export default Header_menu;
