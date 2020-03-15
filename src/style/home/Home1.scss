@@ -25,9 +25,6 @@
   bottom: 637px;
   left: 594px;
   right: 594px;
-}
-
-.home_search {
   width: 732px;
   height: 52px;
   border-radius: 34px;
@@ -36,9 +33,16 @@
   background-color: #ffffff;
 }
 
+.home_search {
+  font-size: 20px;
+  width: 630px;
+  outline: none;
+  float: left;
+  border: 0px;
+  padding: 13px;
+  border-radius: 34px;
+}
 input::placeholder {
-  width: 186px;
-  height: 29px;
   font-family: NotoSansCJKkr;
   font-size: 20px;
   font-weight: normal;
@@ -48,4 +52,13 @@ input::placeholder {
   letter-spacing: normal;
   text-align: center;
   color: #a8a8a8;
+}
+.search_btn {
+  width: 70px;
+  height: 48px;
+  border: 0px;
+  background: #ffffff;
+  outline: none;
+  float: right;
+  border-radius: 34px;
 }

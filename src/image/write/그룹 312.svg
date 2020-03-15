@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="49" viewBox="0 0 60 49">
+    <defs>
+        <filter id="prefix__사각형_450" width="60" height="49" x="0" y="0" filterUnits="userSpaceOnUse">
+            <feOffset dy="3"/>
+            <feGaussianBlur result="blur" stdDeviation="3"/>
+            <feFlood flood-opacity=".161"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <style>
+            .prefix__cls-2{fill:none}
+        </style>
+    </defs>
+    <g id="prefix__그룹_312" data-name="그룹 312" transform="translate(-150 -539)">
+        <g transform="translate(150 539)">
+            <g id="prefix__사각형_450-2" data-name="사각형 450" style="fill:#87c548;stroke:#fff;stroke-width:3px">
+                <path d="M0 0H42V31H0z" style="stroke:none" transform="translate(9 6)"/>
+                <path d="M1.5 1.5H40.5V29.5H1.5z" class="prefix__cls-2" transform="translate(9 6)"/>
+            </g>
+        </g>
+        <g id="prefix__Icon_Perm_Identity_Filled" data-name="Icon / Perm Identity / Filled" transform="translate(163 545)">
+            <path id="prefix__Box" d="M0 0H34V34H0z" class="prefix__cls-2"/>
+            <path id="prefix__패스_1990" d="M977-64.912a3.412 3.412 0 013.413 3.412A3.412 3.412 0 01977-58.087a3.412 3.412 0 01-3.412-3.413A3.412 3.412 0 01977-64.912zm0 14.625c4.826 0 9.913 2.373 9.913 3.413v1.788h-19.825v-1.788c0-1.041 5.086-3.413 9.912-3.413zM977-68a6.5 6.5 0 00-6.5 6.5A6.5 6.5 0 00977-55a6.5 6.5 0 006.5-6.5A6.5 6.5 0 00977-68zm0 14.625c-4.339 0-13 2.178-13 6.5V-42h26v-4.875c0-4.325-8.661-6.5-13-6.5z" data-name="패스 1990" transform="translate(-960 72)" style="fill:#fff"/>
+        </g>
+    </g>
+</svg>

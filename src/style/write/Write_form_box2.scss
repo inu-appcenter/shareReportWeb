@@ -1,0 +1,93 @@
+.write_form_box2{
+    width: 1066px;
+    height: 126px;
+    border-top: solid 2px #707070;
+    border-bottom: solid 2px #707070;
+
+    font-family: NotoSansCJKkr;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+
+    display: flex;
+    flex-direction: row;
+    
+}
+.write_form_box2 form{
+    width: 912px;
+    display: flex;
+    flex-direction: row;
+}
+.write_form_box2 label{
+    width: 150px;
+    background-color: #eceef3;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+    color: #111111;
+
+    padding-top:50px;
+}
+.attach_icons{
+    width: 154px;
+    object-fit: contain;
+
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+#square_green, #square_blue{
+    width: 62px;
+    height: 62px;
+    border-radius: 24px;
+
+    position: absolute;
+    top: 21px;
+    left: 0px;
+    z-index: 1;
+}
+#square_blue{
+    left: 83px;
+}
+#img_icon{
+    width: 42px;
+    height: 34px;
+
+    position: absolute;
+    top: 37px;
+    left: 10px;
+    z-index: 3;
+}
+#file_icon{
+    width: 37px;
+    height: 31px;
+
+    position: absolute;
+    top:37px;
+    left: 96px;
+    z-index: 3;
+}
+.attach_icons span{
+    height: 18px;
+    font-family: NotoSansCJKkr;
+    font-size: 12px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: -0.3px;
+    text-align: left;
+    color: #000000;
+}
+.img_attach_icon span{
+    position: absolute;
+    left:4px;
+    bottom:17px;
+}
+.file_attach_icon span{
+    position: absolute;
+    left:93px;
+    bottom:17px;
+}

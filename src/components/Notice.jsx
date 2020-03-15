@@ -1,13 +1,13 @@
-import React from 'react'
+import React from "react";
 
-const Notice =() => {
-    return(
-        <div>
-            
-        </div>
-
-    );
-
+const Notice = () => {
+  return (
+    <div>
+      <p>
+        <p>공지사항</p>
+      </p>
+    </div>
+  );
 };
 
 export default Notice;
