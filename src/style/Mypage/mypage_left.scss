@@ -1,0 +1,74 @@
+.nim{
+    display: inline;
+  font-family: NotoSansCJKkr;
+  font-size: 13px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.54;
+  letter-spacing: normal;
+  text-align: left;
+  color: #6e6e6e;
+}
+
+.username{
+  float: right;
+  display: block;
+  font-size: 23px;
+  font-weight:bold;
+  padding: 0px;
+  margin: 36px 52px 50px 124px;
+  color:#574fb9;
+  font-family: 'Noto Sans CJK KR Bold';
+  float: right;
+  display: block;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.13;
+  letter-spacing: normal;
+}
+.point_view{
+  border: #574fb9 solid;
+  background-color: #574fb9;
+  color:white;
+  width: 66px;
+  height: 66px;
+  border-radius: 36px;
+  text-align: center;
+  margin-left: 20px;
+  margin-bottom: 15px;
+  font-size: 12px;
+}
+.point_view1{
+  font-size: 22px;
+  line-height: 55px;
+  height: 43px;
+  font-family: 'Noto Sans CJK KR Medium';
+  font-weight: 300;
+}
+.point_view2{
+  font-size: 6px;
+  font-weight: 200;
+  font-family: 'Noto Sans CJK KR Regular';
+}
+.my_menu1:visited{
+  color:black;
+}
+.my_menu1{
+  text-decoration: none;
+  color:black;
+  font-size: 20px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.45;
+  letter-spacing: -0.5px;
+  padding:30px
+}
+.my_menu1.active{
+  color: #574fba;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.45;
+  letter-spacing: -0.5px;
+}
