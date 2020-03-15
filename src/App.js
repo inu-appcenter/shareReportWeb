@@ -12,10 +12,8 @@ import Major_board from './container/Major_board';
 
 function App() {
   return (
-    <div className="App">      
-
-    <Major_board/>
-
+    <div>
+      <Major_board/>
     </div>
   );
 }
