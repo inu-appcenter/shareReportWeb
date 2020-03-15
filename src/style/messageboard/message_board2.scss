@@ -15,19 +15,20 @@
 .box1, .box2, .box3{
     display: inline-block;
     border-right:solid #707070;
-    line-height: 1.47;
+    line-height: 17px;
     padding: 0px 13px;
     font-size: 17px;
     font-stretch: normal;
     font-style: normal;
     letter-spacing: -0.43px;
+    color:#707070;
 }
 .box3{
     color:#574fba;
     border-right:none;
 }
 .box1:visited, .box2:visited{
-    color:black;
+    color:#707070;
 }
 
 //--------------
@@ -57,18 +58,19 @@
     font-family: 'Noto Sans CJK KR Regular';
 }
 .button{
-    //border:solid black 1px;
     display: block;
     float: right;
-    padding: 12px 45px;
+    padding: 15px 0px;
     margin: 13px 0px;
     border-radius: 25px;
     background-color: #574fba;
     color:#ffffff;
     font-size: 15px;
-    //width: 139PX;
-    //height: 45px;
+    width: 139PX;
+    height: 15px;
     font-family: 'Noto Sans CJK KR Medium';
+    text-align: center;
+    font-weight: 500;
 }
 
 //-----------
@@ -99,7 +101,7 @@
     font-size: 18px;
     color: #111111;
     line-height: 1.5;
-    padding: 0 0 15px 0;
+    padding: 0 0 5px 0;
 }
 .table tr{
     padding: 14px 0;

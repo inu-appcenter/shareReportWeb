@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
 
 import Message_board1 from '../components/message_board1';
 import Message_board2 from '../components/message_board2';
@@ -19,6 +19,8 @@ const message_board= () => {
                     <Message_board2/>
                     <Route exact path="/" component={Home}></Route>
                     <Route path="/notice" component={Notice}></Route>
+
+                    <Redirect path="*" to="/"></Redirect>
                 </div>
                 </Switch>
             </div>
