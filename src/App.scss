@@ -1,8 +1,7 @@
-<<<<<<< HEAD
-@import "./style/home/Home1.scss";
+
 @import "./style/home/Logo.scss";
 @import "./style/home/Home2.scss";
-=======
+
 @import './style/reset-style.scss';
 @import "./style/JoinComplete.scss";
 @import "./style/LoginButton.scss";
@@ -13,13 +12,14 @@
 @import './style/messageboard/message_board2.scss';
 
 @import './style/header/Header.scss';
-@import './style/header/Header_logo.scss';
 @import './style/footer/Footer.scss';
 @import './style/mypage/My_edit.scss';
-@import './style/write/Write.scss';
+@import './style/header/Header_logo.scss';
+@import './style/header/Header_menu.scss';
+
 @import './style/write/Write_category.scss';
+@import './style/write/Write.scss';
 @import './style/write/Write_form_box1.scss';
 @import './style/write/Write_textarea.scss';
 @import './style/write/Write_form_box2.scss';
 @import './style/write/Write_btn.scss';
->>>>>>> 70161074eaa06f622e5f0128a9526d15172c95e4
