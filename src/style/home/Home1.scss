@@ -1,16 +1,22 @@
 .home_1 {
   width: 1920px;
-  height: 633px;
+  height: 575px;
   background-color: #eceef3;
   border: 1px double #eceef3;
+  align-items: center;
+}
+
+.home_logo {
+  margin-top: 28px;
+  margin-left: 825px;
+
+  width: 296.5px;
+  height: 125px;
+  object-fit: contain;
 }
 
 .home_img_box {
-  position: absolute;
-  top: 143px;
-  bottom: 728.2px;
-  left: 648px;
-  right: 647.9px;
+  margin-left: 678px;
 }
 
 .home_img {
@@ -20,11 +26,9 @@
 }
 
 .home_search_box {
-  position: absolute;
-  top: 469px;
-  bottom: 637px;
-  left: 594px;
-  right: 594px;
+  margin-top: 290px;
+  margin-left: 614px;
+
   width: 732px;
   height: 52px;
   border-radius: 34px;
