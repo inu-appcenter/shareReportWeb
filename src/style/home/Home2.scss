@@ -1,7 +1,7 @@
 .home_2 {
   display: flex;
 }
-p {
+.bold_p {
   width: 70px;
   height: 24px;
   font-family: NotoSansCJKkr;
@@ -21,6 +21,7 @@ p {
   flex-direction: column;
   margin-top: 81px;
   margin-left: 277px;
+  margin-right: 29.5px;
   width: 301px;
   height: 64px;
 }
@@ -42,6 +43,11 @@ p {
   width: 324px;
   height: 43px;
 }
+
+hr {
+  border-color: #574fba;
+  width: 324px;
+}
 //우수자료
 .good_data {
   display: flex;
@@ -49,6 +55,7 @@ p {
   margin-top: 81px;
   width: 324px;
   height: 43px;
+  margin-left: 24px;
 }
 //회원가입x 홈페이지 로그인
 .login {
@@ -57,4 +64,32 @@ p {
   margin-top: 81px;
   width: 344px;
   height: 48px;
+  margin-left: 26px;
+}
+.login_input {
+  width: 344px;
+  height: 48px;
+  border-radius: 18px;
+  background-color: #eceef3;
+  border: none;
+  margin-bottom: 9px;
+}
+
+.id_pw {
+  width: 241px;
+  height: 22px;
+  font-family: NotoSansCJKkr;
+  font-size: 15px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.87;
+  letter-spacing: normal;
+  margin-left: 30px;
+
+  color: #574fba;
+}
+.flex {
+  display: flex;
+  margin-top: 20px;
 }
