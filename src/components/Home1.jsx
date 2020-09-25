@@ -1,12 +1,19 @@
 import React from "react";
-import Logo from "../components/Logo";
+import Logo1 from "../image/home/logo/그룹 551.png";
 import Home_img1 from "../image/home/home1/자산 1.png";
 import search_btn1 from "../image/home/home1/search/btn_검색.png";
 
 const Home1 = () => {
   return (
     <div className="home_1">
-      <Logo />
+      {/*로고 이미지*/}
+      <img
+        src={Logo1}
+        srcset="../image/home/logo/그룹 551@2x.png 2x,
+                     ../image/home/logo/그룹 551@3x.png 3x"
+        alt="홈페이지 로고"
+        className="home_logo"
+      />
 
       {/*메인화면 이미지  png*/}
       <p className="home_img_box">
@@ -21,10 +28,7 @@ const Home1 = () => {
 
       {/* 검색창 */}
       <p className="home_search_box">
-        <input
-          placeholder="정보 나누고 정보 얻고!"
-          className="home_search"
-        ></input>
+        <input placeholder="정보 나누고 정보 얻고!" className="home_search"></input>
         <button className="search_btn">
           <img
             src={search_btn1}

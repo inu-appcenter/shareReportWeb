@@ -1,99 +1,95 @@
-/*빠른메뉴 scss*/
-
-.culture_btn {
-  width: 301px;
-  height: 64px;
-  object-fit: contain;
+.home_2 {
+  display: flex;
 }
-.culture_btn_box {
-  position: absolute;
-  top: 930px;
-  bottom: 219px;
-  left: 267px;
-  right: 1352px;
-
-  width: 301px;
-  height: 64px;
-  border-radius: 40px;
-  border: solid 1px var(--iris);
-  background-color: #ffffff;
-}
-.upload_btn_box {
-  position: absolute;
-  top: 779px;
-  bottom: 370px;
-  left: 267px;
-  right: 1352;
-  width: 301px;
-  height: 64px;
-  border-radius: 40px;
-  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.22);
-  background-color: #564fb9;
-}
-
-.upload_btn {
-  width: 301px;
-  height: 64px;
-  object-fit: contain;
-}
-.dapart_btn_box {
-  position: absolute;
-  top: 855px;
-  bottom: 294px;
-  left: 267px;
-  right: 1352px;
-  width: 301px;
-  height: 64px;
-  border-radius: 40px;
-  border: solid 1px var(--iris);
-  background-color: #ffffff;
-}
-.dapart_btn {
-  width: 301px;
-  height: 64px;
-  object-fit: contain;
-}
-.quick_menu {
-  width: 65px;
+.bold_p {
+  width: 70px;
   height: 24px;
   font-family: NotoSansCJKkr;
   font-size: 16px;
-  font-weight: 900;
+  font-weight: bold;
   font-stretch: normal;
   font-style: normal;
   line-height: 2.5;
   letter-spacing: normal;
   text-align: left;
   color: #000000;
+  margin-bottom: 21px;
 }
-.quick_menu_box {
-  position: absolute;
-  top: 695px;
-  bottom: 455px;
-  left: 267px;
-  right: 1594px;
+//빠른메뉴
+.menu_Q {
+  display: flex;
+  flex-direction: column;
+  margin-top: 81px;
+  margin-left: 277px;
+  margin-right: 29.5px;
+  width: 301px;
+  height: 64px;
 }
 
-/*공지사항 scss*/
-.notice_box {
-  position: absolute;
-  top: 725px;
-  bottom: 445px;
-  left: 594px;
-  right: 1002px;
+.Q_btn {
+  width: 301px;
+  height: 64px;
+  object-fit: contain;
+  border: none;
+  background-color: #ffffff;
+  margin-top: 12px;
+}
+
+//공지사항
+.Notice {
+  display: flex;
+  flex-direction: column;
+  margin-top: 81px;
   width: 324px;
   height: 43px;
 }
-.notice {
-  width: 59px;
-  height: 24px;
+
+hr {
+  border-color: #574fba;
+  width: 324px;
+}
+//우수자료
+.good_data {
+  display: flex;
+  flex-direction: column;
+  margin-top: 81px;
+  width: 324px;
+  height: 43px;
+  margin-left: 24px;
+}
+//회원가입x 홈페이지 로그인
+.login {
+  display: flex;
+  flex-direction: column;
+  margin-top: 81px;
+  width: 344px;
+  height: 48px;
+  margin-left: 26px;
+}
+.login_input {
+  width: 344px;
+  height: 48px;
+  border-radius: 18px;
+  background-color: #eceef3;
+  border: none;
+  margin-bottom: 9px;
+}
+
+.id_pw {
+  width: 241px;
+  height: 22px;
   font-family: NotoSansCJKkr;
-  font-size: 16px;
-  font-weight: 900;
+  font-size: 15px;
+  font-weight: bold;
   font-stretch: normal;
   font-style: normal;
-  line-height: 2.5;
+  line-height: 1.87;
   letter-spacing: normal;
-  text-align: left;
-  color: #000000;
+  margin-left: 30px;
+
+  color: #574fba;
+}
+.flex {
+  display: flex;
+  margin-top: 20px;
 }
