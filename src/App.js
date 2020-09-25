@@ -12,7 +12,9 @@ import Mypage from "./container/Mypage";
 function App() {
   return (
     <div>
-      <Home />
+      <Header />
+      <Write />
+      <Footer />
     </div>
   );
 }

@@ -1,14 +1,11 @@
 import React from 'react';
-import Symbol_logo from '../../image/header/그룹 520.svg';
-import Eng_logo from '../../image/header/스플래시logo.svg';
+import Group_550 from '../../image/header/그룹 550.svg';
 
 const Header_logo = () => {
     return (
-        < div className="head_logo_component" >
-            <img src={Symbol_logo} alt="header symbol" id="head_symbol_logo" />
-            <img src={Eng_logo} alt="header eng logo" id="head_eng_logo" />
-        </div >
-
+        <a href="." className="header_logo_component">
+            <img src={Group_550} alt="로고" />
+        </a>
     );
 };
 

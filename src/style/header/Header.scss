@@ -1,12 +1,14 @@
-.header_container {
-  width: 1920px;
-  height: 58px;
-  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
-  background-color: #574fba;
+.header{
+    width: 100%;
+    height: 58px;
+    min-width: 1920px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #574fba;
 
-  left: 0px;
-  top: 0px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+    left:0px;
+    top:0px;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    justify-content: space-between;
 }

@@ -1,24 +1,7 @@
 .write_btn{
-    width: 400px;
-    height: 64px;
-
-    margin: 47px 0px 0px 383px;
+    display: flex;
+    justify-content: center;
+    margin-top: 47px;
+    margin-bottom: 589px;
 }
-.write_btn input{
-    width: 301px;
-    height: 64px;
 
-    border-radius: 40px;
-    background-color: #564fb9;
-    font-family: NotoSansCJKkr;
-    font-size: 20px;
-    font-weight: 900;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 2.3;
-    letter-spacing: normal;
-    text-align: left;
-    color: #ffffff;
-    text-align: center;
-
-}

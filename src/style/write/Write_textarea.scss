@@ -1,26 +1,18 @@
 .write_textarea{
-    width: 1047px;
-    height: 390px;
     background-color: #eceef3;
-
-    margin: 9px 10px 10px 12px;
-    
+    margin: 9px 9px 12px 10px;
+    padding: 21px 0 0 32px;
 }
-#write_area{
-    width: 983px;
-    height: 348px;
-    font-family: NotoSansCJKkr;
+.write_textarea textarea{
     font-size: 18px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
     line-height: 1.5;
-    letter-spacing: normal;
-    text-align: left;
     color: #333333;
-    background-color: #eceef3;
-    border:none;
-    padding: 21px 32px;
-    overflow: auto;
+
+    width: 99%;
+    height: 390px;
+    background-color:#eceef3;
+    display: block;
     resize: none;
+    border:none;
 }
+.write_textarea textarea:focus {outline:none;}

@@ -11,16 +11,19 @@
 @import "./style/Mypage/My_edit.scss";
 @import "./style/messageboard/b_search.scss";
 
-@import "./style/header/Header.scss";
-@import "./style/footer/Footer.scss";
-@import "./style/header/Header_logo.scss";
-@import "./style/header/Header_menu.scss";
+@import './style/header/Header.scss';
+@import './style/header/Header_logo.scss';
+@import './style/header/header_menu/Header_menu.scss';
+@import './style/header/header_menu/Header_list.scss';
+@import './style/header/header_menu/Header_mypage_btn.scss';
 
-@import "./style/write/Write_category.scss";
-@import "./style/write/Write.scss";
-@import "./style/write/Write_form_box1.scss";
-@import "./style/write/Write_textarea.scss";
-@import "./style/write/Write_form_box2.scss";
-@import "./style/write/Write_btn.scss";
+@import './style/footer/Footer.scss';
+
+@import './style/write/Write.scss';
+@import './style/write/Write_btn.scss';
+@import './style/write/Write_category.scss';
+@import './style/write/Write_box1.scss';
+@import './style/write/Write_box2.scss';
+@import './style/write/Write_textarea.scss';
 
 @import "./style/Mypage/mypage_left.scss";
