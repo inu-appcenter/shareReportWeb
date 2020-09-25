@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="62" height="88" viewBox="0 0 62 88">
+    <defs>
+        <filter id="prefix__사각형_447" width="39" height="44" x="4" y="10" filterUnits="userSpaceOnUse">
+            <feOffset dy="3"/>
+            <feGaussianBlur result="blur" stdDeviation="3"/>
+            <feFlood flood-opacity=".161"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <filter id="prefix__사각형_446" width="55" height="44" x="4" y="15" filterUnits="userSpaceOnUse">
+            <feOffset dy="3"/>
+            <feGaussianBlur result="blur-2" stdDeviation="3"/>
+            <feFlood flood-opacity=".161"/>
+            <feComposite in2="blur-2" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <style>
+            .prefix__cls-1{fill:#fff}
+        </style>
+    </defs>
+    <g id="prefix__그룹_549" data-name="그룹 549" transform="translate(-1422 -805)">
+        <path id="prefix___" d="M.429 1V.571H0V.429h.429V0h.142v.429H1v.142H.571V1z" class="prefix__cls-1" data-name="+" transform="translate(1469 825)"/>
+        <g id="prefix__그룹_376" data-name="그룹 376" transform="translate(1362 421)">
+            <rect id="prefix__사각형_445" width="62" height="62" data-name="사각형 445" rx="24" transform="translate(60 384)" style="fill:#4c8bf2"/>
+            <g id="prefix__그룹_311" data-name="그룹 311">
+                <g transform="translate(33 -145) translate(27 529)">
+                    <rect id="prefix__사각형_447-2" width="21" height="26" class="prefix__cls-1" data-name="사각형 447" rx="3" transform="translate(13 16)"/>
+                </g>
+                <g transform="translate(33 -145) translate(27 529)">
+                    <path id="prefix__사각형_446-2" d="M1 0h32a4 4 0 0 1 4 4v18a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V1a1 1 0 0 1 1-1z" class="prefix__cls-1" data-name="사각형 446" transform="translate(13 21)"/>
+                </g>
+            </g>
+        </g>
+        <text id="prefix__파일첨부" transform="translate(1432 889)" style="font-size:12px;font-family:NotoSansCJKkr-Medium,Noto Sans CJK KR;font-weight:500;letter-spacing:-.025em">
+            <tspan x="0" y="0">파일첨부</tspan>
+        </text>
+    </g>
+</svg>

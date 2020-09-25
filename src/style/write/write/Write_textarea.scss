@@ -1,0 +1,18 @@
+.write_textarea{
+    background-color: #eceef3;
+    margin: 9px 9px 12px 10px;
+    padding: 21px 0 0 32px;
+}
+.write_textarea textarea{
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333333;
+
+    width: 99%;
+    height: 390px;
+    background-color:#eceef3;
+    display: block;
+    resize: none;
+    border:none;
+}
+.write_textarea textarea:focus {outline:none;}

@@ -1,0 +1,43 @@
+.write_box2{
+    width: 100%;
+    height: 126px;
+
+    border: solid 1px #707070;
+}
+.write_box2 tr{
+    
+}
+.write_box2 tr td{
+    border: solid 3px skyblue;
+}
+.write_box2 tr td input{
+    display: none;
+}
+.write_box2 tr td:first-child{
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: center;
+    line-height: 126px;
+    color: #111111;
+    background-color: #eceef3;
+}
+.write_box2 tr td:nth-child(2){
+    font-size: 17px;
+    line-height: 1.47;
+    color: #564fb9;
+    padding: 38px 0 63px 33px;
+}
+
+.write_box2 tr td:last-child{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+.write_box2 tr td:last-child img{
+    display: block;
+    width: 62px;
+    height: 88px;
+
+}

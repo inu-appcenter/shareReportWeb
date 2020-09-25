@@ -1,0 +1,62 @@
+.header_menu_component{
+    width: 569px;
+    height: 58px;
+    margin-right: 259px;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.fixed_menu, .non_member_menu, .member_menu{display:flex;flex-direction: row;}
+.header_menu_component a{
+    color: #ffffff;
+    font-family: NotoSansCJKkr;
+    font-size: 15px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 3.73;
+    letter-spacing: normal;
+    text-align: left;
+    text-decoration: unset;
+    
+    text-align: center;
+    margin-left: 7px;
+    display: block;
+    width: 92px;
+    height: 58px;
+}
+
+.header_menu_component .member_menu #header_mypage{
+    width: 173px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.header_menu_component .member_menu #header_mypage:hover{
+    background-color: #3e378b;
+    color: #ff54c0;
+}
+.header_menu_component .member_menu #header_mypage img{
+    display: block;
+    width: 22px;
+    height: 22px;
+    object-fit: contain;
+    margin-left: 27px;
+}
+// drop down
+.header_menu_component .member_menu #item_mypage{
+    width: 173px;
+    height: 274px;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+}
+.header_menu_component .member_menu #item_mypage li::after{
+    content: "";
+    display: block;
+    width: 136px;
+    border-bottom: 1px solid #bcbcbc;
+    margin: auto;
+}
+.header_menu_component .member_menu #item_mypage li:last-child::after{border:none;}

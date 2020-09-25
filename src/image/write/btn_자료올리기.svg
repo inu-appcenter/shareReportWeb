@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="301" height="64" viewBox="0 0 301 64">
+    <g id="prefix__btn_자료올리기" transform="translate(-267 -779)">
+        <rect id="prefix__사각형_520" width="301" height="64" data-name="사각형 520" rx="32" transform="translate(267 779)" style="fill:#564fb9"/>
+        <text id="prefix__글올리기" transform="translate(381 819)" style="font-size:20px;font-family:NotoSansCJKkr-Black,Noto Sans CJK KR;font-weight:800;fill:#fff">
+            <tspan x="0" y="0">글올리기</tspan>
+        </text>
+        <path id="prefix___" d="M.429 1V.571H0V.429h.429V0h.142v.429H1v.142H.571V1z" data-name="+" transform="translate(544 796)" style="fill:#fff"/>
+    </g>
+</svg>
