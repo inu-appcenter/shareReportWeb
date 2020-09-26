@@ -26,18 +26,18 @@
     height: 58px;
 }
 
-.header_menu_component .member_menu #header_mypage{
+#header_dd_trigger{
     width: 173px;
     display:flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
-.header_menu_component .member_menu #header_mypage:hover{
+#header_dd_trigger:hover{
     background-color: #3e378b;
     color: #ff54c0;
 }
-.header_menu_component .member_menu #header_mypage img{
+#header_dd_trigger img{
     display: block;
     width: 22px;
     height: 22px;
@@ -45,20 +45,24 @@
     margin-left: 27px;
 }
 // drop down
-.header_menu_component .member_menu #item_mypage{
+#header_dd_item{
     width: 173px;
-    height: 274px;
-    border-radius: 5px;
+    height: 276px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
     background-color: #ffffff;
-    position: relative;
-    z-index: 100;
+    position: relative; 
+    left:7px;
 }
-.header_menu_component .member_menu #item_mypage li::after{
+#header_dd_item li::after{
     content: "";
     display: block;
     width: 136px;
     border-bottom: 1px solid #bcbcbc;
     margin: auto;
 }
-.header_menu_component .member_menu #item_mypage li:last-child::after{border:none;}
+#header_dd_item li:last-child::after{border:none;}
+#header_dd_item li:last-child p{color: #574fba;}
+
+

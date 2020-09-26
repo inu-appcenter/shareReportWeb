@@ -18,8 +18,8 @@ const Header_menu = () => {
             {isLogin ?
                 <div className="member_menu">
                     <a href=".">로그아웃</a>
-                    <div className="dropdown_mypage">
-                        <a href="." id="header_mypage" onClick={function (e) {
+                    <div className="header_dropdown">
+                        <a href="." id="header_dd_trigger" onClick={function (e) {
                             e.preventDefault();
                             setOpen(!open);
                         }}>
@@ -27,7 +27,7 @@ const Header_menu = () => {
                             < img src={Header_my_icon} alt="" />
                         </a>
                         {open &&
-                            <ul id="item_mypage">
+                            <ul id="header_dd_item">
                                 <li><Header_mypage_btn name="마이페이지" /></li>
                                 <li><Header_mypage_btn name="내가받은자료" /></li>
                                 <li><Header_mypage_btn name="내가올린자료" /></li>
